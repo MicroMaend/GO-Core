@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Authors>MicroMaend</Authors>
+    <PackageReleaseNotes>Woop</PackageReleaseNotes>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.2</Version>
+    <Title>GOCore</Title>
+    <Description>Woop</Description>
+    <Copyright>MicroMaend - Helt ind til roden</Copyright>
+    <RepositoryUrl>https://github.com/MicroMaend/GO-Core</RepositoryUrl>
+    <AssemblyName>GOCore</AssemblyName>
+    <RootNamespace>GOCore</RootNamespace>
+    <PackageId>GOCore</PackageId>
+  </PropertyGroup>
+
+</Project>
