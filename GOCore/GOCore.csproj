@@ -7,7 +7,7 @@
     <Authors>MicroMaend</Authors>
     <PackageReleaseNotes>Woop</PackageReleaseNotes>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0.2</Version>
+    <Version>1.0.6</Version>
     <Title>GOCore</Title>
     <Description>Woop</Description>
     <Copyright>MicroMaend - Helt ind til roden</Copyright>
@@ -15,6 +15,18 @@
     <AssemblyName>GOCore</AssemblyName>
     <RootNamespace>GOCore</RootNamespace>
     <PackageId>GOCore</PackageId>
+    <PackageIcon>IconforGoCore.png</PackageIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="IconforGoCore2.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Update="IconforGoCore.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
