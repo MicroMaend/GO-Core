@@ -7,9 +7,9 @@
     <Authors>MicroMaend</Authors>
     <PackageReleaseNotes>Woop</PackageReleaseNotes>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0.7</Version>
+    <Version>1.0.8</Version>
     <Title>GOCore</Title>
-    <Description>Woop</Description>
+    <Description>Helt ind til roden</Description>
     <Copyright>MicroMaend - Helt ind til roden</Copyright>
     <RepositoryUrl>https://github.com/MicroMaend/GO-Core</RepositoryUrl>
     <AssemblyName>GOCore</AssemblyName>
