@@ -20,4 +20,6 @@ public class Auction
         AuctionEnd = auctionEnd;
         Status = "Upcoming";
     }
+    
+    public Auction() {}
 }

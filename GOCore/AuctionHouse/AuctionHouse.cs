@@ -21,4 +21,6 @@ public class AuctionHouse
         Items = new List<Item>();
         AdminUsers = new List<Admin>();
     }
+    
+    public AuctionHouse() {}
 }

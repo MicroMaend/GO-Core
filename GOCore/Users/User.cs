@@ -24,4 +24,6 @@ public class User
         PhoneNumber = phoneNumber;
         Email = email;
     }
+    
+    public User() {}
 }

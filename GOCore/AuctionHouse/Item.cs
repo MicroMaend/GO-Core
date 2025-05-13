@@ -24,4 +24,6 @@ public class Item
         Condition = condition;
         Category = category;
     }
+    
+    public Item() {}
 }

@@ -10,4 +10,6 @@ public class Platform
         AuctionHouses = auctionHouses;
         Users = users;
     }
+    
+    public Platform() {}
 }
