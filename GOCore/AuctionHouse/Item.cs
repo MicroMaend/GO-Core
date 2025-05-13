@@ -9,8 +9,10 @@ public class Item
     public int Value { get; set; }
     public User Seller { get; set; }
     public string Status { get; set; }
+    public string Condition { get; set; }
+    public string Category { get; set; }
     
-    public Item(string name, string description, List<string> images, int value, User seller)
+    public Item(string name, string description, List<string> images, int value, User seller, string status, string condition, string category)
     {
         Id = Guid.NewGuid();
         Name = name;
@@ -18,6 +20,8 @@ public class Item
         Images = images;
         Value = value;
         Seller = seller;
-        Status = "Available";
+        Status = status;
+        Condition = condition;
+        Category = category;
     }
 }
