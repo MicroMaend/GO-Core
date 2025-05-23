@@ -3,21 +3,21 @@ namespace GOCore;
 public class Auction
 {
     public Guid Id { get; set; }
-    public Item Item { get; set; }
+    public Guid ItemId { get; set; }
     public bool IsOnline { get; set; }
     public DateTime AuctionStart { get; set; }
     public DateTime AuctionEnd { get; set; }
     public string Status { get; set; }
-    public Bidding? HighestBid { get; set; }
-    
-    public Auction(Item item, bool isOnline, DateTime auctionStart, DateTime auctionEnd)
+    public Guid HighestBidId { get; set; }
+    public Auction(Guid itemId, bool isOnline, DateTime auctionStart, DateTime auctionEnd, Guid highestBidId)
     {
         Id = Guid.NewGuid();
-        Item = item;
+        ItemId = itemId;
         IsOnline = isOnline;
         AuctionStart = auctionStart;
         AuctionEnd = auctionEnd;
         Status = "Upcoming";
+        HighestBidId = highestBidId;
     }
     
     public Auction() {}
